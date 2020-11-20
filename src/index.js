@@ -72,7 +72,7 @@ io.on('connection', (socket) => {
         }
     })
 })
-
+generateLocationMessage("testowa Lokalizacja", {lat: 25, long: -75})
 // Run the server
 server.listen(port, () => {
     console.log(`Server is listening on port: ${port}`)
